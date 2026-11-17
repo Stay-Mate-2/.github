@@ -1,0 +1,52 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">StayMate shared living concept</title>
+  <desc id="desc">An abstract dark illustration showing connected people, a home and a location pin.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1113"/>
+      <stop offset="1" stop-color="#172427"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="260" y1="80" x2="980" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8AF2E5"/>
+      <stop offset="1" stop-color="#2DB8AD"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="880" y1="90" x2="1040" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD19B"/>
+      <stop offset="1" stop-color="#E98238"/>
+    </linearGradient>
+    <filter id="glowTeal" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowOrange" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="520" rx="28" fill="url(#bg)"/>
+  <path d="M0 400C190 320 290 470 470 390C650 310 740 390 890 322C1020 263 1110 300 1200 270V520H0V400Z" fill="#101B1E"/>
+  <path d="M90 105C290 30 380 160 560 105C760 44 850 76 1110 132" stroke="#254348" stroke-width="2" stroke-dasharray="6 12"/>
+  <path d="M130 360C300 270 420 340 560 260C700 180 840 250 1040 150" stroke="#2B5B5E" stroke-width="2" stroke-dasharray="4 14"/>
+  <circle cx="274" cy="170" r="52" fill="#57D1C4" opacity=".12" filter="url(#glowTeal)"/>
+  <circle cx="274" cy="170" r="20" fill="url(#teal)"/>
+  <circle cx="274" cy="170" r="9" fill="#0B1113"/>
+  <circle cx="600" cy="108" r="7" fill="#57D1C4"/>
+  <circle cx="600" cy="108" r="3" fill="#D9FFFA"/>
+  <circle cx="928" cy="170" r="58" fill="#F2A65A" opacity=".14" filter="url(#glowOrange)"/>
+  <path d="M928 126C900 126 878 148 878 176C878 214 928 254 928 254C928 254 978 214 978 176C978 148 956 126 928 126Z" fill="url(#orange)"/>
+  <circle cx="928" cy="176" r="13" fill="#172427"/>
+  <g transform="translate(445 176)">
+    <rect width="310" height="210" rx="20" fill="#122124" stroke="#3B6668"/>
+    <rect x="22" y="22" width="266" height="112" rx="14" fill="#1B3033"/>
+    <path d="M74 100V75L155 34L236 75V100" stroke="url(#teal)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M101 99V76H209V99" stroke="#9BEDE4" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="64" cy="163" r="18" fill="#57D1C4"/>
+    <circle cx="155" cy="163" r="18" fill="#F2A65A"/>
+    <circle cx="246" cy="163" r="18" fill="#8FD8D1"/>
+    <path d="M64 196V184M155 196V184M246 196V184" stroke="#6E9191" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <path d="M294 180C360 220 394 250 445 266M756 266C820 244 860 210 894 186" stroke="#57D1C4" stroke-width="2" stroke-dasharray="5 8"/>
+  <path d="M274 222V270" stroke="#57D1C4" stroke-width="2" stroke-dasharray="5 8"/>
+  <text x="68" y="456" fill="#E8FFFC" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="5">FIND • CONNECT • LIVE TOGETHER</text>
+  <text x="68" y="486" fill="#7FA5A5" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="2">A more considered way to share a place.</text>
+</svg>

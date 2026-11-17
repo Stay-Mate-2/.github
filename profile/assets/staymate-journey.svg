@@ -1,0 +1,38 @@
+<svg width="1200" height="250" viewBox="0 0 1200 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">The StayMate journey</title>
+  <desc id="desc">Four connected stages: find people, find places, connect safely and live together.</desc>
+  <defs>
+    <linearGradient id="line" x1="120" y1="125" x2="1080" y2="125" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#57D1C4"/>
+      <stop offset="1" stop-color="#F2A65A"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-100%" width="200%" height="300%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="250" rx="24" fill="#101819"/>
+  <path d="M130 125H1070" stroke="#274447" stroke-width="10" stroke-linecap="round"/>
+  <path d="M130 125H1070" stroke="url(#line)" stroke-width="2" stroke-linecap="round"/>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <circle cx="150" cy="125" r="38" fill="#57D1C4" opacity=".18" filter="url(#soft)"/>
+    <circle cx="150" cy="125" r="28" fill="#183A3C" stroke="#57D1C4" stroke-width="2"/>
+    <text x="150" y="132" fill="#E8FFFC" font-size="19" font-weight="700">01</text>
+    <text x="150" y="190" fill="#E8FFFC" font-size="16" font-weight="700">Find people</text>
+    <text x="150" y="213" fill="#7FA5A5" font-size="12">Compatibility</text>
+    <circle cx="450" cy="125" r="38" fill="#57D1C4" opacity=".18" filter="url(#soft)"/>
+    <circle cx="450" cy="125" r="28" fill="#183A3C" stroke="#57D1C4" stroke-width="2"/>
+    <text x="450" y="132" fill="#E8FFFC" font-size="19" font-weight="700">02</text>
+    <text x="450" y="190" fill="#E8FFFC" font-size="16" font-weight="700">Find places</text>
+    <text x="450" y="213" fill="#7FA5A5" font-size="12">Context</text>
+    <circle cx="750" cy="125" r="38" fill="#F2A65A" opacity=".18" filter="url(#soft)"/>
+    <circle cx="750" cy="125" r="28" fill="#3B2A1D" stroke="#F2A65A" stroke-width="2"/>
+    <text x="750" y="132" fill="#FFF2E3" font-size="19" font-weight="700">03</text>
+    <text x="750" y="190" fill="#FFF2E3" font-size="16" font-weight="700">Connect safely</text>
+    <text x="750" y="213" fill="#BDA58F" font-size="12">Confidence</text>
+    <circle cx="1050" cy="125" r="38" fill="#F2A65A" opacity=".18" filter="url(#soft)"/>
+    <circle cx="1050" cy="125" r="28" fill="#3B2A1D" stroke="#F2A65A" stroke-width="2"/>
+    <text x="1050" y="132" fill="#FFF2E3" font-size="19" font-weight="700">04</text>
+    <text x="1050" y="190" fill="#FFF2E3" font-size="16" font-weight="700">Live together</text>
+    <text x="1050" y="213" fill="#BDA58F" font-size="12">The next chapter</text>
+  </g>
+</svg>

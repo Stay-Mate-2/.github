@@ -1,52 +1,44 @@
 <div align="center">
 
-<br />
+<a href="https://github.com/Stay-Mate-2">
+  <img src="https://img.shields.io/badge/STAYMATE-101517?style=for-the-badge&logoColor=57D1C4" alt="StayMate">
+</a>
 
-# <span style="color:#14B8A6">Stay</span><span style="color:#F97316">Mate</span>
+# StayMate
 
 ### Find the right person. Find the right place. Make shared living easier.
 
-<p><em>A calmer, more compatible way to find the people and places that make shared living work.</em></p>
+StayMate is an Android-first roommate and accommodation marketplace designed to help people discover compatible roommates, explore accommodation and build a better shared-living experience.
 
-<br />
+<p>
+  <img src="https://img.shields.io/badge/Android--first-101517?style=flat-square&logo=android&logoColor=57D1C4" alt="Android-first">
+  <img src="https://img.shields.io/badge/Marketplace-101517?style=flat-square&logoColor=57D1C4" alt="Marketplace">
+  <img src="https://img.shields.io/badge/Human--centered-101517?style=flat-square&logoColor=F2A65A" alt="Human-centered">
+</p>
 
-[![Android-first](https://img.shields.io/badge/ANDROID--FIRST-0F172A?style=for-the-badge&logo=android&logoColor=14B8A6)](https://developer.android.com/)
-[![Privacy-minded](https://img.shields.io/badge/PRIVACY--MINDED-0F172A?style=for-the-badge&logo=shield&logoColor=F97316)](#engineering-principles)
-
-<br />
+<img src="./assets/staymate-hero.svg" alt="StayMate shared living concept" width="100%">
 
 </div>
 
 ---
 
-<table>
-<tr>
-<td width="58%" valign="top">
+## About StayMate
 
-## Shared living, considered.
+Finding a place to live is only part of the challenge. Finding people, expectations and routines that fit is what makes shared living work.
 
-StayMate is an **Android-first roommate and accommodation marketplace** designed to help people discover compatible roommates, explore accommodation and make shared living easier.
+StayMate is being built to bring those decisions into one thoughtful experience: discover people with compatible lifestyles, explore relevant rooms and accommodation, and connect with more confidence before making a move.
 
-We are building around a simple belief: the right home is not only a place. It is also the right people, the right expectations and the confidence to take the next step.
+> **Less friction. Better compatibility. More confidence in where — and with whom — you live.**
 
-</td>
-<td width="42%" valign="top">
-
-> **StayMate**
->
-> Find better context before you share a home.
->
-> <span style="color:#14B8A6">People</span> · <span style="color:#F97316">Places</span> · Trust
-
-</td>
-</tr>
-</table>
+<div align="center">
+  <img src="./assets/staymate-journey.svg" alt="The StayMate journey: find people, find places, connect safely and live together" width="100%">
+</div>
 
 ## Our Vision
 
-We believe shared living should begin with better context, not guesswork.
+We believe shared living should feel more compatible, transparent and human.
 
-StayMate’s vision is to make co-living more **compatible, transparent, convenient and trustworthy** by helping people understand the living situation, the place and the people involved. We are building toward a calmer way to find a home and a stronger way to find the right people to share it with.
+StayMate’s vision is to make the journey from discovery to connection more convenient and trustworthy — giving people clearer choices, better context and privacy-conscious ways to decide whether a place and a person are right for them.
 
 ## What We Are Building
 
@@ -54,32 +46,32 @@ StayMate’s vision is to make co-living more **compatible, transparent, conveni
 <tr>
 <td width="50%" valign="top">
 
-### <span style="color:#14B8A6">01</span> &nbsp; Find People
+### <span style="color:#57D1C4">01 · Find People</span>
 
-Discover potential roommates through meaningful compatibility signals and clearer expectations.
+Discover potential roommates through meaningful preferences and compatibility signals — not just proximity.
 
 </td>
 <td width="50%" valign="top">
 
-### <span style="color:#14B8A6">02</span> &nbsp; Find Places
+### <span style="color:#57D1C4">02 · Find Places</span>
 
-Explore rooms, PGs and accommodation with the context needed to make informed decisions.
+Explore rooms, PGs and accommodation with the context needed to make a more informed choice.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### <span style="color:#F97316">03</span> &nbsp; Connect Safely
+### <span style="color:#F2A65A">03 · Connect Safely</span>
 
-Build meaningful connections through privacy-conscious communication and a trust-first experience.
+Build meaningful connections through communication designed with privacy and personal boundaries in mind.
 
 </td>
 <td width="50%" valign="top">
 
-### <span style="color:#F97316">04</span> &nbsp; Live Together
+### <span style="color:#F2A65A">04 · Live Together</span>
 
-A future product module for shared expenses, household activities and the practical rhythm of living together.
+Manage shared expenses and household activities as a future product module for life after moving in.
 
 </td>
 </tr>
@@ -87,121 +79,71 @@ A future product module for shared expenses, household activities and the practi
 
 ## Technology Stack
 
-The public project information currently confirms an **Android-first product direction**. The broader implementation stack is being established and is not represented here as complete or production-ready.
+The product direction is being shaped deliberately. The list below separates what is confirmed from technologies currently being evaluated, so the public profile reflects the work accurately.
 
-<details>
-<summary><strong>Current direction</strong></summary>
+### Confirmed direction
 
-<br />
+<a href="https://www.android.com/"><img src="https://img.shields.io/badge/Android--first-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android-first"></a>
 
-[![Android](https://img.shields.io/badge/Platform-Android--first-0F172A?style=flat-square&logo=android&logoColor=14B8A6)](https://developer.android.com/)
+### Planned / under evaluation
 
-</details>
+| Layer | Technologies |
+| --- | --- |
+| Application | React Native · Expo · TypeScript |
+| Backend | Node.js · Express |
+| Data & real-time | MongoDB · Socket.IO |
+| Notifications | Firebase Cloud Messaging |
 
-<details>
-<summary><strong>Planned or under consideration</strong></summary>
-
-<br />
-
-These technologies are candidates for the project architecture and should not be read as a claim that every one is currently implemented.
-
-[![React Native](https://img.shields.io/badge/React%20Native-planned-0F172A?style=flat-square&logo=react&logoColor=14B8A6)](https://reactnative.dev/)
-[![Expo](https://img.shields.io/badge/Expo-planned-0F172A?style=flat-square&logo=expo&logoColor=F3F4F6)](https://expo.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-planned-0F172A?style=flat-square&logo=typescript&logoColor=14B8A6)](https://www.typescriptlang.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-planned-0F172A?style=flat-square&logo=nodedotjs&logoColor=14B8A6)](https://nodejs.org/)
-[![Express](https://img.shields.io/badge/Express-planned-0F172A?style=flat-square&logo=express&logoColor=F3F4F6)](https://expressjs.com/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-planned-0F172A?style=flat-square&logo=mongodb&logoColor=14B8A6)](https://www.mongodb.com/)
-[![Socket.IO](https://img.shields.io/badge/Socket.IO-planned-0F172A?style=flat-square&logo=socketdotio&logoColor=F3F4F6)](https://socket.io/)
-[![Firebase Cloud Messaging](https://img.shields.io/badge/FCM-planned-0F172A?style=flat-square&logo=firebase&logoColor=F97316)](https://firebase.google.com/docs/cloud-messaging)
-
-</details>
+> Technologies in the planned section are not presented as implemented features. This section will be updated as architectural decisions are confirmed.
 
 ## Engineering Principles
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**01 · Lightweight and optimized**  
-Fast, focused and efficient on real devices and real networks.
-
-**02 · Security first**  
-Treat account, communication and marketplace data as sensitive from the beginning.
-
-**03 · Privacy by design**  
-Collect thoughtfully, communicate clearly and give people meaningful control.
-
-**04 · Maintainable architecture**  
-Prefer clear boundaries, readable code and systems that remain easy to evolve.
-
-</td>
-<td width="50%" valign="top">
-
-**05 · Reliable backend systems**  
-Design for predictable behavior, useful observability and graceful failure.
-
-**06 · Responsive Android experience**  
-Make the core journey feel natural, performant and dependable.
-
-**07 · Accessible by default**  
-Build interfaces that are understandable, inclusive and comfortable to use.
-
-**08 · Meaningful testing**  
-Test the journeys and risks that matter, not just the lines that are easy to count.
-
-</td>
-</tr>
-</table>
+| Principle | What it means for us |
+| --- | --- |
+| **Lightweight by default** | Keep the experience fast, focused and efficient on real devices and real networks. |
+| **Security first** | Treat identity, communication and data protection as core product responsibilities. |
+| **Privacy by design** | Collect, expose and retain information with purpose and restraint. |
+| **Maintainable architecture** | Prefer clear boundaries, readable code and decisions that remain easy to evolve. |
+| **Reliable systems** | Build dependable backend foundations with explicit failure handling and observability in mind. |
+| **Accessible by intent** | Make the experience understandable and usable for as many people as possible. |
+| **Meaningful testing** | Test the journeys and edge cases that matter to people, not just the happy path. |
 
 ## Development Status
 
-<table>
-<tr>
-<td><strong>Stage</strong></td>
-<td>Early product development / public project information is limited</td>
-</tr>
-<tr>
-<td><strong>Current release</strong></td>
-<td>Not publicly announced</td>
-</tr>
-<tr>
-<td><strong>Production availability</strong></td>
-<td>Not publicly announced</td>
-</tr>
-<tr>
-<td><strong>Public roadmap</strong></td>
-<td>To be published</td>
-</tr>
-</table>
+| Area | Status |
+| --- | --- |
+| Product concept | **Defined** |
+| Android-first direction | **Confirmed** |
+| Public release | **Not yet announced** |
+| Current milestone | **[Status to be updated]** |
+| Release timeline | **[To be announced]** |
 
-> We will publish verified milestones when they are ready. No completion percentages, launch dates, user counts or production claims are included here.
+We will share progress as milestones become concrete. No completion percentages, download figures or production claims are included until they can be verified.
 
 ## Project Repositories
 
-Official repository links will be published here as the project becomes ready for broader collaboration.
+Official repositories will be linked here as they become available:
 
-| Repository | Purpose | Status |
-| --- | --- | --- |
-| `StayMate mobile` | Android-first product experience | Link to be published |
-| `StayMate backend` | Services and marketplace infrastructure | Link to be published |
-| `StayMate documentation` | Product and engineering documentation | Link to be published |
+- **Application** — `[Repository URL to be added]`
+- **Backend services** — `[Repository URL to be added]`
+- **Shared tooling / documentation** — `[Repository URL to be added]`
 
 ## Join Our Journey
 
-StayMate is being built for the moments that turn a room into a home: a compatible person, a clearer conversation and a better place to live.
+StayMate is being shaped by people who care about better products, better engineering and better ways to live together. Follow the organization to see the project take form, and watch for opportunities to contribute, collaborate or share thoughtful feedback.
 
-Follow the organization to see the product take shape, and watch this space for repositories, documentation and opportunities to contribute.
+<div align="center">
+
+### Better matches. Better places. Better shared living.
+
+</div>
 
 ---
 
 <div align="center">
 
-### <span style="color:#14B8A6">Stay</span><span style="color:#F97316">Mate</span>
+**StayMate**
 
-<sub>Find the right person. Find the right place. Make shared living easier.</sub>
-
-<br /><br />
-
-<sub>Built with intention for better shared living.</sub>
+*Find the right person. Find the right place. Make shared living easier.*
 
 </div>
